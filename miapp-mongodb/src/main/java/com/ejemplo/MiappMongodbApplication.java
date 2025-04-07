@@ -1,4 +1,4 @@
-package com.ejemplo.miapp_mongodb;
+package com.ejemplo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
