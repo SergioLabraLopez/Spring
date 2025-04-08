@@ -27,7 +27,7 @@ public class TareaController {
     }
 
     @DeleteMapping("/{id}")
-    public void eliminarTarea(@PathVariable Long id) {
+    public void eliminarTarea(@PathVariable String id) {
         tareaRepository.deleteById(id);
     }
 }
